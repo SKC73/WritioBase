@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
+
 	<!--*****  Meta Sets  *****-->
+
 	<meta charset="utf-8">
 	<meta lang="en">
 	<meta http-equiv="X-UA-Compatible" content="IE-Edge">
@@ -10,6 +12,7 @@
 	<link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
 
 	<!-- ***** Style Sheet Links  ***** -->
+
 		<link rel="stylesheet" href="css/bootstrap.min.css">
 		<link rel="stylesheet" href="css/styles.css">
 	<title>First Page</title>
@@ -17,16 +20,74 @@
 </head>
 
 <!-- *****     BODY     ***** -->
+
 <body>
 
-	<!-- ***** Banner  ***** -->
+	<!-- ***** Nav-Bar ***** -->
+
 	<header>
-		<nav></nav>
+		<nav id="header-nav" class="navbar navbar-default">
+			<div class="container">
+				<div class="navbar-header">
+				
 
+		<!--*** Button Bar ***-->
 
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsible-nav" aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				</div>
+
+		<!--*** Navbar elements ***-->
+
+			<div id="collapsible-nav" class="collapse navbar-collapse">
+				<ul id="nav-list" class="nav navbar-nav navbar-right">
+					<li>
+						<a href="course-tiles.html">
+							<span class="glyphicon glyphicon-play-circle"></span><br class="hidden-xs"> Courses</a>
+					</li>
+					<li>
+						<a href="about.html">
+							<span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs"> About Us</a>
+					</li>
+					<li>
+						<a href="contact-page.html">
+							<span class="glyphicon glyphicon-envelope"></span><br class="hidden-xs"> Contact Us</a>
+					</li>
+				</ul>
+				</div>
+			</div>
+		</nav>
 	</header>
-	<div class="banner">Writio!</div>
+
+	<!--*** Title ***-->
+
+		<div class="container">
+			<div class="title">
+					<a href="index.html"><h1 id="name">Writio!</h1></a>	
+			</div>
+		</div>
+
+<!--*** Main Content ***-->
 	
+	<div id="main-content" class="container">
+
+	<!--*** Jumbotron ***-->
+
+		<div class="penimage">
+			<img src="css/Images/jumbotron_pic_zekestretch.jpg" alt="Pic of Pen" class="img-responsive">
+		</div>
+			
+	</div>
+		</div>
+	</div>
+	
+	-->
+
+		
 	<!-- *****  JS Links  ***** -->
 	<script src="js/jquery-2.2.4.min"></script>
 	<script src="js/bootstrap.min.js"></script>

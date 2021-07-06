@@ -1,17 +1,45 @@
 body {
 	box-sizing: border-box;
+	background-color: whitesmoke;
+
 }
 
-.banner {
+#header-nav {
+
+	color: ghostwhite;
+	border-radius: 0;
+	border: 0;
+}
+
+.title {
 	
+	box-sizing: border-box;
 	font-family: "Special Elite", cursive;
-	font-size: 75px;
-	font-style: italic;
-	color: whitesmoke;
-	text-align: left;
-	background-image: url("Images/Books-image.jpg");
-	background-position: left;
-	background-repeat: no-repeat;
-	border: 2px solid black;
+	color: black;
+	text-align: center;
+	margin-top: 30px;
+	
+}
+
+#name {
+
+	color: black;
+	font-size: 100px;
+}
+
+#nav-list {
+	text-align: center;
+}
+
+#nav-list a:hover {
+	color: blue;
+}
+
+.penimage {
+	border-radius: 0px;
+	border: 0px;
+	padding: 0px;
+	background: url('..css/Images/jumbotron_pic_zekestretch.jpg') no-repeat;
+	height: auto;
 }
 
