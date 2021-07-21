@@ -4,27 +4,13 @@ body {
 
 }
 
+		/* Nav List */
+
 #header-nav {
 
 	color: ghostwhite;
 	border-radius: 0;
 	border: 0;
-}
-
-.title {
-	
-	box-sizing: border-box;
-	font-family: "Special Elite", cursive;
-	color: black;
-	text-align: center;
-	margin-top: 30px;
-	
-}
-
-#name {
-
-	color: black;
-	font-size: 100px;
 }
 
 #nav-list {
@@ -35,11 +21,112 @@ body {
 	color: blue;
 }
 
-.penimage {
+.title {
+	
+	box-sizing: border-box;
+	font-family: "Special Elite", cursive;
+	color: black;
+	text-align: center;
+	margin-top: 30px;
+}
+
+#name {
+
+	color: black;
+	font-size: 100px;
+}
+
+
+.container-fluid .penimage {
 	border-radius: 0px;
 	border: 0px;
 	padding: 0px;
-	background: url('..css/Images/jumbotron_pic_zekestretch.jpg') no-repeat;
-	height: auto;
 }
+
+
+		/* Tiles */
+#home-tiles {
+	padding: 30px;
+}
+
+#writer-tile, #student-tile, #edit-tile, #teach-tile {
+	height: 180px;
+	width: 90%;
+	border: 2px solid grey;
+	margin: 15px 15px 0px 0px;
+	position: relative;
+	overflow: hidden;
+	font-family: "Special Elite";
+}
+
+#writer-tile, #student-tile, #edit-tile, #teach-tile {
+	box-shadow: 0 2px 10px 2px #cccccc;
+	border-radius: 100px;
+}
+
+#writer-tile {
+	background: url('../css/Images/Course-tile.jpg') no-repeat;
+	background-position: center;
+}
+
+#student-tile {
+	background: url('../css/Images/Student-tile.jpg') no-repeat;
+	background-position: center;
+}
+#edit-tile {
+	background: url('../css/Images/Edit-tile.jpg') no-repeat;
+	background-position: center;
+}
+
+#teach-tile {
+	background: url('../css/Images/Teach-tile.jpg') no-repeat;
+	background-position: center;
+}
+
+#writer-tile span, #student-tile span, #edit-tile span, #teach-tile span {
+	position: absolute;
+	text-align: center;
+	bottom: 20px;
+	width: 100%;
+	font-size: 1.6em;
+	background-color: #FFF;
+	color: #000;
+	opacity: .8;
+
+}
+
+		/* Footer */
+
+.panel-footer {
+	margin-top: 20px;
+	padding-top: 35px;
+	padding-bottom: 30px;
+	color: black;
+	background-color: #fbf3d4;
+	border-top: 0;
+}
+
+.panel-footer  {
+	margin-left: 0;
+	font-family: garamond;
+}
+
+#About span {
+	
+	font-size: 25px;
+	font-weight: bold;
+}
+
+#Contact {
+
+	font-size: 15px;
+	padding-right: 15px;
+}
+
+#Contact span {
+	text-decoration: underline;
+}
+
+
+
 
