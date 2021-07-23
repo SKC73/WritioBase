@@ -8,9 +8,35 @@ body {
 
 #header-nav {
 
-	color: ghostwhite;
+	background-color: ghostwhite;
 	border-radius: 0;
 	border: 0;
+	margin-left: 0px;
+}
+
+.navbar-brand h1 {
+
+	font-family: "Special Elite", cursive;
+	color: black;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 20px;
+	margin-bottom: 0;
+	line-height: .75;
+}
+.navbar-header button.navbar-toggle {
+
+	clear: both;
+}
+
+#logo-img {
+
+background: url('../css/Images/logo-penimage.jpg') no-repeat;
+border-radius: 100px;
+height: 75px;
+width: 75px;
+margin: 10px 15px 10px 0px;
+border: 2px solid black;
+
 }
 
 #nav-list {
@@ -28,6 +54,11 @@ body {
 	color: black;
 	text-align: center;
 	margin-top: 30px;
+}
+
+#main-content {
+
+	padding-top: 10px;
 }
 
 #name {
@@ -56,7 +87,7 @@ body {
 }
 
 #writer-tile, #student-tile, #edit-tile, #teach-tile {
-	height: 180px;
+	height: 200px;
 	width: 90%;
 	border: 2px solid grey;
 	margin: 15px 15px 0px 0px;
@@ -143,7 +174,9 @@ body {
 .Overview-tile {
 
 	border: 2px solid grey;
-	margin: 15px 15px 0px 0px;
+	margin: 20px;
+	height: 200px;
+	width: 200px;
 	position: relative;
 	overflow: hidden;
 	font-family: "Special Elite";
@@ -153,3 +186,30 @@ body {
 
 }
 
+#Rule1-image, #Rule2-image, #UnderC-image {
+
+	height: 180px;
+	width: 200px;
+
+}
+
+#Rule1-image {
+
+	background: url('../css/Images/yawn.jpg') no-repeat;
+	background-position: center;
+
+}
+
+#Rule2-image {
+
+	background: url('../css/Images/SDT.jpg') no-repeat;
+	background-position: center;
+	
+}
+
+#UnderC-image {
+
+	background: url('../css/Images/UnderC.png') no-repeat;
+	background-position: center;
+
+}
