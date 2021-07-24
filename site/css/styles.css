@@ -8,7 +8,7 @@ body {
 
 #header-nav {
 
-	background-color: ghostwhite;
+	background-color: #f1ecdf;
 	border-radius: 0;
 	border: 0;
 	margin-left: 0px;
@@ -54,6 +54,7 @@ border: 2px solid black;
 	color: black;
 	text-align: center;
 	margin-top: 30px;
+
 }
 
 #main-content {
@@ -72,12 +73,16 @@ border: 2px solid black;
 
 	color: black;
 	font-size: 75px;
+
 }
 .container-fluid .penimage {
 	border-radius: 0px;
 	border: 0px;
 	padding: 0px;
 }
+
+
+					/* ---Main Page--- */
 
 
 		/* Tiles */
@@ -132,7 +137,9 @@ border: 2px solid black;
 
 }
 
-		/* Footer */
+
+						/* ---Footer---  */
+
 
 .panel-footer {
 	margin-top: 20px;
@@ -164,7 +171,11 @@ border: 2px solid black;
 	text-decoration: underline;
 }
 
-	/* Writer's Page */
+
+
+			/* ---The Rules Page--- */
+
+
 
 #Writer-overview {
 
@@ -211,5 +222,139 @@ border: 2px solid black;
 
 	background: url('../css/Images/UnderC.png') no-repeat;
 	background-position: center;
+	opacity: 0.3;
+
+}
+
+				/* ---Rule #1 Page--- */
+
+.hr-new1 {
+
+border: 1px solid grey;
+width: 50%
+
+}
+.Rule1box {
+
+	border: 2px solid black;
+	border-radius: 5px;
+	padding: 10px;
+	background-color: #F2EFF9;
+
+}
+
+#Rule1-subhead {
+
+font-family: "Special Elite";
+font-weight: bold;
+
+}
+
+#Rule1-text {
+
+font-family: "Times New Roman";
+font-size: 1.2em;
+padding-bottom: 20px;
+
+}
+
+			/* ---Rule 2 Page--- */
+
+
+#Rule2-header {
+
+font-family: "Special Elite";
+
+}
+
+#Rule2-subheader {
+
+font-family: "Special Elite";
+padding-top: 25px;
+
+}
+
+.Rule2-text {
+
+	font-family: "Special Elite";
+	padding-bottom: 20px;
+}
+
+.wow-section {
+
+	padding-top: 50px;
+	padding-bottom: 25px;
+	background-color: #f1ecdf;
+}
+
+.tutorial-section {
+
+	padding-top: 50px;
+	padding-bottom: 25px;
+
+}
+
+.menu-vid {
+
+	padding-bottom: 10px;
+
+}
+.menu-item {
+
+font-family: garamond;
+
+}
+
+.menu-descr-ex {
+
+background-color: #e39ff6;
+
+}
+
+.menu-descr-q {
+
+	background-color: #B6D0D5;
+}
+.menu-descr-title {
+
+}
+
+.menu-descr.details {
+
+}
+
+/* ---About Page--- */
+
+.about-title {
+
+margin-top: 0px;
+font-size: 20px;
+}
+
+.sean-bio {
+
+	border: 2px solid black;
+	border-radius: 5px;
+	height: 260px;
+	width: 180px;
+	background: url('../css/Images/sean-pic.jpg') no-repeat;
+	padding: 0;
+
+
+}
+.sean-text {
+
+	font-family:  garamond;
+
+}
+
+.kelly-bio {
+
+	border: 2px solid black;
+	border-radius: 5px;
+	height: 260px;
+	width: 180px;
+	background: url() no-repeat;
+	padding: 0;
 
 }
