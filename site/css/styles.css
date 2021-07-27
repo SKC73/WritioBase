@@ -304,6 +304,7 @@ font-family: Times;
 	padding-bottom: 10px;
 
 }
+
 .menu-item {
 
 font-family: garamond;
@@ -322,9 +323,11 @@ background-color: #e39ff6;
 }
 .menu-descr-title {
 
+	font-size: 16px;
 }
 
 .menu-descr.details {
+
 
 }
 
